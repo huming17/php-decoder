@@ -1,0 +1,3 @@
+LIBRARY HOOK_EVAL
+EXPORTS
+hook_eval @1

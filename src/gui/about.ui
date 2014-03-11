@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>About</class>
+ <widget class="QWidget" name="About">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;http://zhaoyl.sinaapp.com/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;作者:Y.L. QQ:270656184&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;蜗居在小公司的小程序员一枚&lt;/p&gt;&lt;p&gt;DeEval部分是我的原创,网络上有一个类似在线工具,网址我不记得了,用了同样的原理.&lt;/p&gt;&lt;p&gt;DeZend部分内核是从黑刀DeZend中提取的,对其中的ZendOptimizer稍加修改,解密成功率大大提高,模式1,2,3分别对应黑刀DeZend中的解密内核3,1,2.其中模式1正确率最高,但是仍然会有部分错误,可以使用三种模式分别解密然后对照着修改.&lt;/p&gt;&lt;p&gt;本程序使用QT编写,免费使用并公开源码,保留作者署名的前提下可以随意使用,但请注意不要侵犯他人版权.由于使用此程序造成的任何不良后果作者不承担任何责任,敬请知晓.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
